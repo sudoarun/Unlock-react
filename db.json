@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "name": "Aun",
+      "device": "iPhone 7P",
+      "serial": "dsfvdffgdgdfg",
+      "mobile": "93434535",
+      "id": 1
+    },
+    {
+      "name": "Arun",
+      "device": "iPhone 7P",
+      "serial": "dsfvdffgdgdfg",
+      "mobile": "93434535",
+      "id": 6
+    },
+    {
+      "name": "Auregn",
+      "device": "iPhone 7P",
+      "serial": "dsfvdffgdgdfg",
+      "mobile": "93434535",
+      "id": 2
+    },
+    {
+      "name": "Audfsfgn",
+      "device": "iPhone 7P",
+      "serial": "dsfvdffgdgdfg",
+      "mobile": "93434535",
+      "id": 3
+    },
+    {
+      "name": "bhsa",
+      "device": "iPhone 7P",
+      "serial": "dsfvdffgdgdfg",
+      "mobile": "93434535",
+      "id": 5
+    }
+  ]
+}
