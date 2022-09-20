@@ -1,4 +1,4 @@
-import axios from "axios";
+// import axios from "axios";
 import React, { useState } from "react";
 
 function Update() {
@@ -16,7 +16,7 @@ function Update() {
     }
     const onUpdateData = async e => {
         e.preventDefault();
-        await axios.post("http://localhost:3003/users", user);
+        // await axios.post("http://localhost:3003/users", user);
 
         // redirect('/home');
     }

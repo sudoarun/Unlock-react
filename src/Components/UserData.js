@@ -19,7 +19,7 @@ function UserData() {
         // console.log(data);
         setUsers(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
 
-        // getUsers();
+        getUsers();
       }
 
     const deleteUser = async (id) => {
@@ -30,6 +30,7 @@ function UserData() {
                 if(result){
                     const userDoc = doc(db, "users", id);
                     await deleteDoc(userDoc);
+                    getUsers();
                     setTimeout(() => {
                                 alert("User is deleted!!!");
                             }, 1000);
